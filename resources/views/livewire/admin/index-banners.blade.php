@@ -185,7 +185,7 @@
             <!-- BEGIN: Account Menu -->
             <div class="intro-x dropdown w-8 h-8">
                 <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in" role="button" aria-expanded="false" data-tw-toggle="dropdown">
-                    <img alt="Midone - HTML Admin Template" src="../../../dist/images/profile-12.jpg">
+                    <img alt="Midone - HTML Admin Template" src="{{ asset('admin/images/profile-12.jpg') }}">
                 </div>
                 <div class="dropdown-menu w-56">
                     <ul class="dropdown-content bg-primary text-white">
@@ -227,512 +227,79 @@
         </div>
         <!-- END: Top Bar -->
         <div class="intro-y flex items-center mt-8">
-            <h2 class="text-lg font-medium mr-auto">Slider</h2>
+            <h2 class="text-lg font-medium mr-auto">Banners</h2>
         </div>
         <div class="grid grid-cols-12 gap-6 mt-5">
-            <div class="intro-y col-span-12 lg:col-span-6">
+            <div class="intro-y col-span-12 lg:col-span-8">
                 <!-- BEGIN: Single Item -->
-                <div class="intro-y box">
-                    <div class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
-                        <h2 class="font-medium text-base mr-auto">Single Item</h2>
-                        <div class="form-check form-switch w-full sm:w-auto sm:ml-auto mt-3 sm:mt-0">
-                            <label class="form-check-label ml-0" for="show-example-1">Show example code</label>
-                            <input id="show-example-1" data-target="#single-item-slider" class="show-code form-check-input mr-0 ml-3" type="checkbox">
-                        </div>
-                    </div>
-                    <div id="single-item-slider" class="p-5">
-                        <div class="preview">
-                            <div class="mx-6">
-                                <div class="single-item">
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">1</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">2</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">3</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">4</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">5</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">6</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="source-code hidden">
-                            <button data-target="#copy-single-item-slider" class="copy-code btn py-1 px-2 btn-outline-secondary">
-                                <i data-lucide="file" class="w-4 h-4 mr-2"></i> Copy example code
-                            </button>
-                            <div class="overflow-y-auto mt-3 rounded-md">
-                            <pre id="copy-single-item-slider" class="source-preview">
-                                <code class="html">
-
-                                        HTMLOpenTagdiv class=&quot;mx-6&quot;HTMLCloseTag
-                                            HTMLOpenTagdiv class=&quot;single-item&quot;HTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag1HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag2HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag3HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag4HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag5HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag6HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                            HTMLOpenTag/divHTMLCloseTag
-                                        HTMLOpenTag/divHTMLCloseTag
-
-                                </code>
-                            </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END: Single Item -->
-                <!-- BEGIN: Multiple Item -->
                 <div class="intro-y box mt-5">
                     <div class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
-                        <h2 class="font-medium text-base mr-auto">Multiple Item</h2>
-                        <div class="form-check form-switch w-full sm:w-auto sm:ml-auto mt-3 sm:mt-0">
-                            <label class="form-check-label ml-0" for="show-example-2">Show example code</label>
-                            <input id="show-example-2" data-target="#multiple-item-slider" class="show-code form-check-input mr-0 ml-3" type="checkbox">
-                        </div>
-                    </div>
-                    <div id="multiple-item-slider" class="p-5">
-                        <div class="preview">
-                            <div class="mx-6">
-                                <div class="multiple-items">
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">1</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">2</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">3</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">4</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">5</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">6</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">7</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">8</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">9</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="source-code hidden">
-                            <button data-target="#copy-multiple-item-slider" class="copy-code btn py-1 px-2 btn-outline-secondary">
-                                <i data-lucide="file" class="w-4 h-4 mr-2"></i> Copy example code
-                            </button>
-                            <div class="overflow-y-auto mt-3 rounded-md">
-                            <pre id="copy-multiple-item-slider" class="source-preview">
-                                <code class="html">
-
-                                        HTMLOpenTagdiv class=&quot;mx-6&quot;HTMLCloseTag
-                                            HTMLOpenTagdiv class=&quot;multiple-items&quot;HTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag1HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag2HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag3HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag4HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag5HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag6HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag7HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag8HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag9HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                            HTMLOpenTag/divHTMLCloseTag
-                                        HTMLOpenTag/divHTMLCloseTag
-
-                                </code>
-                            </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END: Multiple Item -->
-                <!-- BEGIN: Responsive Display -->
-                <div class="intro-y box mt-5">
-                    <div class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
-                        <h2 class="font-medium text-base mr-auto">Responsive Display</h2>
-                        <div class="form-check form-switch w-full sm:w-auto sm:ml-auto mt-3 sm:mt-0">
-                            <label class="form-check-label ml-0" for="show-example-3">Show example code</label>
-                            <input id="show-example-3" data-target="#responsive-slider" class="show-code form-check-input mr-0 ml-3" type="checkbox">
-                        </div>
-                    </div>
-                    <div id="responsive-slider" class="p-5">
-                        <div class="preview">
-                            <div class="mx-6 pb-8">
-                                <div class="responsive-mode">
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">1</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">2</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">3</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">4</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">5</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">6</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">7</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">8</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="source-code hidden">
-                            <button data-target="#copy-responsive-slider" class="copy-code btn py-1 px-2 btn-outline-secondary">
-                                <i data-lucide="file" class="w-4 h-4 mr-2"></i> Copy example code
-                            </button>
-                            <div class="overflow-y-auto mt-3 rounded-md">
-                            <pre id="copy-responsive-slider" class="source-preview">
-                                <code class="html">
-
-                                        HTMLOpenTagdiv class=&quot;mx-6 pb-8&quot;HTMLCloseTag
-                                            HTMLOpenTagdiv class=&quot;responsive-mode&quot;HTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag1HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag2HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag3HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag4HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag5HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag6HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag7HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag8HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                            HTMLOpenTag/divHTMLCloseTag
-                                        HTMLOpenTag/divHTMLCloseTag
-
-                                </code>
-                            </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END: Responsive Display -->
-            </div>
-            <div class="intro-y col-span-12 lg:col-span-6">
-                <!-- BEGIN: Center Mode -->
-                <div class="intro-y box">
-                    <div class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
-                        <h2 class="font-medium text-base mr-auto">Center Mode</h2>
-                        <div class="form-check form-switch w-full sm:w-auto sm:ml-auto mt-3 sm:mt-0">
-                            <label class="form-check-label ml-0" for="show-example-4">Show example code</label>
-                            <input id="show-example-4" data-target="#center-mode-slider" class="show-code form-check-input mr-0 ml-3" type="checkbox">
-                        </div>
-                    </div>
-                    <div id="center-mode-slider" class="p-5">
-                        <div class="preview">
-                            <div class="mx-6">
-                                <div class="center-mode">
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">1</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">2</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">3</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">4</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">5</h3>
-                                        </div>
-                                    </div>
-                                    <div class="h-32 px-2">
-                                        <div class="h-full bg-slate-100 dark:bg-darkmode-400 rounded-md">
-                                            <h3 class="h-full font-medium flex items-center justify-center text-2xl">6</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="source-code hidden">
-                            <button data-target="#copy-center-mode-slider" class="copy-code btn py-1 px-2 btn-outline-secondary">
-                                <i data-lucide="file" class="w-4 h-4 mr-2"></i> Copy example code
-                            </button>
-                            <div class="overflow-y-auto mt-3 rounded-md">
-                            <pre id="copy-center-mode-slider" class="source-preview">
-                                <code class="html">
-
-                                        HTMLOpenTagdiv class=&quot;mx-6&quot;HTMLCloseTag
-                                            HTMLOpenTagdiv class=&quot;center-mode&quot;HTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag1HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag2HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag3HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag4HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag5HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-32 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full bg-slate-100 dark:bg-darkmode-400 rounded-md&quot;HTMLCloseTag
-                                                        HTMLOpenTagh3 class=&quot;h-full font-medium flex items-center justify-center text-2xl&quot;HTMLCloseTag6HTMLOpenTag/h3HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                            HTMLOpenTag/divHTMLCloseTag
-                                        HTMLOpenTag/divHTMLCloseTag
-
-                                </code>
-                            </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END: Center Mode -->
-                <!-- BEGIN: Fade Animation -->
-                <div class="intro-y box mt-5">
-                    <div class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
-                        <h2 class="font-medium text-base mr-auto">Fade Animation</h2>
-                        <div class="form-check form-switch w-full sm:w-auto sm:ml-auto mt-3 sm:mt-0">
-                            <label class="form-check-label ml-0" for="show-example-5">Show example code</label>
-                            <input id="show-example-5" data-target="#fade-animation-slider" class="show-code form-check-input mr-0 ml-3" type="checkbox">
-                        </div>
+                        <h2 class="font-medium text-base mr-auto">View as Customer </h2>
                     </div>
                     <div id="fade-animation-slider" class="p-5">
                         <div class="preview">
                             <div class="mx-6 pb-8">
                                 <div class="fade-mode">
-                                    <div class="h-64 px-2">
-                                        <div class="h-full image-fit rounded-md overflow-hidden">
-                                            <img alt="Midone - HTML Admin Template" src="{{ asset('admin/images/preview-12.jpg') }}" />
+                                    @forelse($images as $img)
+                                        <div class="h-64 px-2">
+                                            <div class="h-full image-fit rounded-md overflow-hidden">
+                                                <img alt="Midone - HTML Admin Template" src="{{ asset($img['img_path']) }}" />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="h-64 px-2">
-                                        <div class="h-full image-fit rounded-md overflow-hidden">
-                                            <img alt="Midone - HTML Admin Template" src="{{ asset('admin/images/preview-3.jpg') }}" />
-                                        </div>
-                                    </div>
-                                    <div class="h-64 px-2">
-                                        <div class="h-full image-fit rounded-md overflow-hidden">
-                                            <img alt="Midone - HTML Admin Template" src="{{ asset('admin/images/preview-3.jpg') }}" />
-                                        </div>
-                                    </div>
+                                    @empty
+                                        <p class="text-xl text-center capitalize">no banners added yet</p>
+                                    @endforelse
                                 </div>
-                            </div>
-                        </div>
-                        <div class="source-code hidden">
-                            <button data-target="#copy-fade-animation-slider" class="copy-code btn py-1 px-2 btn-outline-secondary">
-                                <i data-lucide="file" class="w-4 h-4 mr-2"></i> Copy example code
-                            </button>
-                            <div class="overflow-y-auto mt-3 rounded-md">
-                            <pre id="copy-fade-animation-slider" class="source-preview">
-                                <code class="html">
-
-                                        HTMLOpenTagdiv class=&quot;mx-6 pb-8&quot;HTMLCloseTag
-                                            HTMLOpenTagdiv class=&quot;fade-mode&quot;HTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-64 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full image-fit rounded-md overflow-hidden&quot;HTMLCloseTag
-                                                        HTMLOpenTagimg alt=&quot;Midone - HTML Admin Template&quot; src=&quot;https://rubick.left4code.com/dist/images/preview-12.jpg&quot; /HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-64 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full image-fit rounded-md overflow-hidden&quot;HTMLCloseTag
-                                                        HTMLOpenTagimg alt=&quot;Midone - HTML Admin Template&quot; src=&quot;https://rubick.left4code.com/dist/images/preview-3.jpg&quot; /HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTagdiv class=&quot;h-64 px-2&quot;HTMLCloseTag
-                                                    HTMLOpenTagdiv class=&quot;h-full image-fit rounded-md overflow-hidden&quot;HTMLCloseTag
-                                                        HTMLOpenTagimg alt=&quot;Midone - HTML Admin Template&quot; src=&quot;https://rubick.left4code.com/dist/images/preview-3.jpg&quot; /HTMLCloseTag
-                                                    HTMLOpenTag/divHTMLCloseTag
-                                                HTMLOpenTag/divHTMLCloseTag
-                                            HTMLOpenTag/divHTMLCloseTag
-                                        HTMLOpenTag/divHTMLCloseTag
-
-                                </code>
-                            </pre>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- END: Fade Animation -->
+                <!-- END: Single Item -->
+
+                <div class="intro-y overflow-auto lg:overflow-visible mt-8 sm:mt-0">
+                    <table class="table table-report sm:mt-2">
+                        <thead>
+                        <tr>
+                            <th class="whitespace-nowrap">IMAGES</th>
+                            <th class="whitespace-nowrap">Added at</th>
+                            <th class="text-center whitespace-nowrap">ACTIONS</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach($images as $img)
+                            <tr class="intro-x">
+                                <td class="w-40">
+                                    <div class="flex">
+                                        <img alt="Midone - HTML Admin Template" class="image-fit" src="{{ asset($img['img_path']) }}">
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="font-medium whitespace-nowrap text-center">{{ $img['created_at']->diffForHumans() }}</p>
+                                <td class="table-report__action w-56">
+                                    <div class="flex justify-center items-center">
+                                        <a
+                                            class="flex items-center text-danger"
+                                            @click="$dispatch('custom-show-delete-modal', '{{ $img['id'] }}')"
+                                            x-data
+                                        >
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="trash-2" data-lucide="trash-2" class="lucide lucide-trash-2 w-4 h-4 mr-1"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg> Delete
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="intro-y col-span-12 lg:col-span-4">
+
+                @livewire('admin.add-banner')
             </div>
         </div>
     </div>
+
+{{--   <livewire:admin.delete-banner />--}}
+    <x-modal-confirm />

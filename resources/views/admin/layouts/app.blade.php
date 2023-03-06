@@ -1053,6 +1053,7 @@ License: You must have a valid license purchased only from themeforest(the above
             </ul>
         </div>
     </div>
+
     <!-- END: Mobile Menu -->
     <div class="flex mt-[4.7rem] md:mt-0">
         <!-- BEGIN: Side Menu -->
@@ -1096,6 +1097,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="{{ asset('admin/js/app.js') }}"></script>
     <script src="{{ asset('admin/js/map.js') }}"></script>
     <!-- END: JS Assets-->
+
     @livewireScripts
 </body>
 
